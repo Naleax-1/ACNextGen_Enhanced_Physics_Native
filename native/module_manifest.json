@@ -1,0 +1,419 @@
+{
+  "order": [
+    "body_rigidity_estimator",
+    "load_transfer",
+    "road_body_input",
+    "suspension_contact_input",
+    "damper_model",
+    "damper_hysteresis",
+    "progressive_spring",
+    "sprung_mass",
+    "weight_distribution",
+    "suspension",
+    "arm_compliance",
+    "control_arm",
+    "ultra_chassis",
+    "caster_effect",
+    "compliance_stack",
+    "tire_contact_core",
+    "tire_contact_response",
+    "tire_carcass",
+    "contact_quality",
+    "tire_state",
+    "tire_memory",
+    "tire_thermal_brush",
+    "tire_contact",
+    "tire_dynamics",
+    "tire_force",
+    "tire_compliance",
+    "load_path",
+    "road_input_interpreter",
+    "diff_lsd",
+    "drivetrain",
+    "driveline_windup",
+    "tire_hop",
+    "slip_recovery",
+    "yaw_moment_budget",
+    "thermal",
+    "mass_balance",
+    "chassis_roll",
+    "chassis_energy",
+    "chassis_flex",
+    "virtual_inertia",
+    "steering_dynamics",
+    "steering_mechanism",
+    "brake_system",
+    "brake_fade",
+    "brake_lock",
+    "damage_state",
+    "damage_event",
+    "impact_sensor",
+    "vehicle_condition",
+    "physics",
+    "wheel_audit"
+  ],
+  "modules": [
+    {
+      "name": "body_rigidity_estimator",
+      "sha256": "194a9304104fe048b31c388c371e8021b13c2c0e638414a2f46cad80d6459831",
+      "lua_bytes": 22579,
+      "cpp_bytes": 48351
+    },
+    {
+      "name": "load_transfer",
+      "sha256": "3ee25ce4701da41083cb22c62c7eda49c4b0bf0e55b3cdfc05df2ac04bc7bdd8",
+      "lua_bytes": 39360,
+      "cpp_bytes": 91536
+    },
+    {
+      "name": "road_body_input",
+      "sha256": "155eacddf6e31838433875c1d551efc4918ab3a0089d3a5749e11acebff9f7ae",
+      "lua_bytes": 27049,
+      "cpp_bytes": 68084
+    },
+    {
+      "name": "suspension_contact_input",
+      "sha256": "b17d08539932e1a78c085d02bef3c2db4d4adba43200dd16a3e66e6c92e41c3c",
+      "lua_bytes": 33094,
+      "cpp_bytes": 74804
+    },
+    {
+      "name": "damper_model",
+      "sha256": "deeb3f666b71dca3d3f570a0561201a2580a5e13df36ca2ada79f7a16ef7b80c",
+      "lua_bytes": 33851,
+      "cpp_bytes": 86504
+    },
+    {
+      "name": "damper_hysteresis",
+      "sha256": "0b570a7c27b9b5f4d7f05822c8fb03e00d679a659d1ef761b9551fc3baba84e2",
+      "lua_bytes": 39324,
+      "cpp_bytes": 90054
+    },
+    {
+      "name": "progressive_spring",
+      "sha256": "857699e29737adc35305f728dc8cd3463a054037adf209785faacf8d19b87e94",
+      "lua_bytes": 32388,
+      "cpp_bytes": 77754
+    },
+    {
+      "name": "sprung_mass",
+      "sha256": "8774f3053900e7c1019551404a3083448e155724665a694703c25b9aa0085fd2",
+      "lua_bytes": 26681,
+      "cpp_bytes": 61582
+    },
+    {
+      "name": "weight_distribution",
+      "sha256": "d3dc205e04208f912fd4ee9dda4f1ba4d0d2c230db7dab3dd4053fa1a36759d1",
+      "lua_bytes": 32210,
+      "cpp_bytes": 76658
+    },
+    {
+      "name": "suspension",
+      "sha256": "6aeee8a48aa09d99aec12d6b423b636782421a9132c5372d3c92572d69352960",
+      "lua_bytes": 37629,
+      "cpp_bytes": 91880
+    },
+    {
+      "name": "arm_compliance",
+      "sha256": "653b40f761bbb6850d7b6ee52117237e15d8dddc80146d8219623ccfef3023d8",
+      "lua_bytes": 14589,
+      "cpp_bytes": 33364
+    },
+    {
+      "name": "control_arm",
+      "sha256": "a4822e97816310f5ba0e8137fb3f14bffbc9ff35a6d83e99d52374cc111942a7",
+      "lua_bytes": 21720,
+      "cpp_bytes": 49927
+    },
+    {
+      "name": "ultra_chassis",
+      "sha256": "28dfa916f8af88e7a399444b76003275ca219649b00a4be2f687c33a2545c775",
+      "lua_bytes": 23846,
+      "cpp_bytes": 52040
+    },
+    {
+      "name": "caster_effect",
+      "sha256": "21d6ac2b9fd3d39a2b84e7ba85d443e2e6cdd486ce4407b7ea1fd2209dc42704",
+      "lua_bytes": 38758,
+      "cpp_bytes": 88265
+    },
+    {
+      "name": "compliance_stack",
+      "sha256": "9d39411ad1aaa5b9b8c47a77163c0bf4ec087b7916b4f27a614419ad0aa111e1",
+      "lua_bytes": 47604,
+      "cpp_bytes": 110254
+    },
+    {
+      "name": "tire_contact_core",
+      "sha256": "a7438e45acb8a703205772e36ce194ee38adf4b11b7cb53e12fc13c49dd1464a",
+      "lua_bytes": 32778,
+      "cpp_bytes": 79522
+    },
+    {
+      "name": "tire_contact_response",
+      "sha256": "6c8e245d621553080226c1d6700741f9ce8c124ab7400e2c663b480f28c7945d",
+      "lua_bytes": 29733,
+      "cpp_bytes": 71527
+    },
+    {
+      "name": "tire_carcass",
+      "sha256": "41450e282f984967e643837cf28f621df88acb62872d14b84a51260bfd4bff88",
+      "lua_bytes": 54098,
+      "cpp_bytes": 119940
+    },
+    {
+      "name": "contact_quality",
+      "sha256": "f72de6cfee886274deeb80356743add16a90082287e66afb9244c454ade52215",
+      "lua_bytes": 29634,
+      "cpp_bytes": 67831
+    },
+    {
+      "name": "tire_state",
+      "sha256": "6d014847c4db6cd94dd203f7d684b9da2b07a2860e4a31bd0e59fa19d2588500",
+      "lua_bytes": 42561,
+      "cpp_bytes": 91235
+    },
+    {
+      "name": "tire_memory",
+      "sha256": "21690697eeee7595f4af2aace9fcdadefd9f7ae0913289b611a9f26ca14a4422",
+      "lua_bytes": 49678,
+      "cpp_bytes": 117904
+    },
+    {
+      "name": "tire_thermal_brush",
+      "sha256": "14f3c5ac2369e8090eed0dbd413ee0a0e693de7b57fc3f3f573f7b5d9bf87c99",
+      "lua_bytes": 42830,
+      "cpp_bytes": 90610
+    },
+    {
+      "name": "tire_contact",
+      "sha256": "29121764a4b6ce13fba20d4ebab7ea8bac3150d9d8fc556f8bc931abf1144f30",
+      "lua_bytes": 36451,
+      "cpp_bytes": 89570
+    },
+    {
+      "name": "tire_dynamics",
+      "sha256": "e9b7eb3cf82ad98cd8a3ae2f01f45c997ea61249bf5b43c0bd0189b084fe9135",
+      "lua_bytes": 50378,
+      "cpp_bytes": 106596
+    },
+    {
+      "name": "tire_force",
+      "sha256": "c7102e800665c8915ba5f1ae912e6bc13eaf63be420d3144b3a28eb84e8735c6",
+      "lua_bytes": 52659,
+      "cpp_bytes": 107726
+    },
+    {
+      "name": "tire_compliance",
+      "sha256": "1b83111e8fa5788f0eaaf69c0b76413160c11e83d88a305a252eedf5c71acdd9",
+      "lua_bytes": 34479,
+      "cpp_bytes": 79489
+    },
+    {
+      "name": "load_path",
+      "sha256": "2405853ad0a67f125035023d5cd6c8155f805426ed1466170bfb8bf29c690751",
+      "lua_bytes": 44453,
+      "cpp_bytes": 103037
+    },
+    {
+      "name": "road_input_interpreter",
+      "sha256": "a7bb3ab5da5cb191309d4c05991faaba8a58f2d69a57846f17e0d0cd2162f3b0",
+      "lua_bytes": 50104,
+      "cpp_bytes": 123848
+    },
+    {
+      "name": "diff_lsd",
+      "sha256": "a87cbe007d8466b93781262f2372d3cd4c4179c894a0c2c6a4041bdee4523db8",
+      "lua_bytes": 35337,
+      "cpp_bytes": 83566
+    },
+    {
+      "name": "drivetrain",
+      "sha256": "aea90e9f46feba7a48ca3c1c7f0d95d9746949ac974bfbb44f4d69ee7563408b",
+      "lua_bytes": 44447,
+      "cpp_bytes": 106847
+    },
+    {
+      "name": "driveline_windup",
+      "sha256": "429952bcf818fc13e2600ceec45f8e03637ce77878724eeae02c8e2bf1143518",
+      "lua_bytes": 45851,
+      "cpp_bytes": 98403
+    },
+    {
+      "name": "tire_hop",
+      "sha256": "b5b4498c60c2e801edc983f0c0031b9b0a28f7d0a86dc34382b6d58f51113c81",
+      "lua_bytes": 40880,
+      "cpp_bytes": 86473
+    },
+    {
+      "name": "slip_recovery",
+      "sha256": "65db28323b9fe02b67b1741de57caef69894d4e74b557ecb30890ab9beb395b8",
+      "lua_bytes": 51747,
+      "cpp_bytes": 108318
+    },
+    {
+      "name": "yaw_moment_budget",
+      "sha256": "76544431a8b23d9110262bab9aaab4ea0b20c0ea12516998a3473ffb6c4a81be",
+      "lua_bytes": 48271,
+      "cpp_bytes": 112308
+    },
+    {
+      "name": "thermal",
+      "sha256": "4f0caba03045d0eacce48233dc1536f224f602b5351d2a75df78494c92d46f14",
+      "lua_bytes": 25859,
+      "cpp_bytes": 61057
+    },
+    {
+      "name": "mass_balance",
+      "sha256": "209e7f2115a2796b5225d76500b74b22674f3cdf747cb8acb2d8c851917ad385",
+      "lua_bytes": 25223,
+      "cpp_bytes": 58517
+    },
+    {
+      "name": "chassis_roll",
+      "sha256": "b92323e22e1f9bff0c8ac4185becbcd759d41c5162735f89a7b6652065eb5f5e",
+      "lua_bytes": 27043,
+      "cpp_bytes": 57869
+    },
+    {
+      "name": "chassis_energy",
+      "sha256": "d4246fba751d0b93e36b0b65dbcc39949661137157f711353ceb68202ecc7f04",
+      "lua_bytes": 26941,
+      "cpp_bytes": 59796
+    },
+    {
+      "name": "chassis_flex",
+      "sha256": "a4a3d63e22dd6a6163d524a066ea71ebfe9c32c7d626e300ab593811fcb189fc",
+      "lua_bytes": 27727,
+      "cpp_bytes": 62178
+    },
+    {
+      "name": "virtual_inertia",
+      "sha256": "9d28fa21605bd7027aa25d39599e61ac9166eac519299bc82ce4995b7d9ab0b8",
+      "lua_bytes": 36376,
+      "cpp_bytes": 80612
+    },
+    {
+      "name": "steering_dynamics",
+      "sha256": "48db8367095f8e73afc4a023799bb8f94bb6741e9d654f266eeea8746960f0be",
+      "lua_bytes": 26005,
+      "cpp_bytes": 61885
+    },
+    {
+      "name": "steering_mechanism",
+      "sha256": "6a9d0ec4880160cfb12699f0441b7c35a3e6db9a19bcfe2c20c2f469e54671f0",
+      "lua_bytes": 23077,
+      "cpp_bytes": 55064
+    },
+    {
+      "name": "brake_system",
+      "sha256": "9f520dd618e3d60a834c02e3d7117a6d4e313cbf516c2e875f60c41eb4d796b6",
+      "lua_bytes": 12158,
+      "cpp_bytes": 27071
+    },
+    {
+      "name": "brake_fade",
+      "sha256": "14262f0e4a685819d649686811b40e18c4fa9e40840572cd03d73ae2beff183a",
+      "lua_bytes": 15036,
+      "cpp_bytes": 35688
+    },
+    {
+      "name": "brake_lock",
+      "sha256": "b93b98c007cd1ed136c12cebddb1047a6bb13e903c5938d0f886a99186e3ecbc",
+      "lua_bytes": 19614,
+      "cpp_bytes": 46211
+    },
+    {
+      "name": "damage_state",
+      "sha256": "f889909fbf33dfabe2e1d6f9b4903b4179e5cb9e8d8a80b9df22c3e89d8b35ec",
+      "lua_bytes": 16173,
+      "cpp_bytes": 38681
+    },
+    {
+      "name": "damage_event",
+      "sha256": "ade422bec9c445c33d0f2a23f1746f3e341bbeee14f016d93cabdc475a8caac1",
+      "lua_bytes": 12383,
+      "cpp_bytes": 28221
+    },
+    {
+      "name": "impact_sensor",
+      "sha256": "00672663f0429afd4ca098dd97ebb1fba4d9313dc4db6f8f2c2e700bdf28691f",
+      "lua_bytes": 16418,
+      "cpp_bytes": 28038
+    },
+    {
+      "name": "vehicle_condition",
+      "sha256": "4218ea0c7204ad6bd0e308abd7ccd82ca52853daeb737ff6da5d6f61ff36a110",
+      "lua_bytes": 34119,
+      "cpp_bytes": 75031
+    },
+    {
+      "name": "physics",
+      "sha256": "197fea20efce662f791a231fd0af92e1c8e54123cde4a1a86e2fe524b841ab96",
+      "lua_bytes": 35435,
+      "cpp_bytes": 86159
+    },
+    {
+      "name": "wheel_audit",
+      "sha256": "b60ed34fcc5b9c9a50571fd120c5c5ae033b349955184092009bac34d82f36f8",
+      "lua_bytes": 16069,
+      "cpp_bytes": 25162
+    }
+  ],
+  "runtime": "compiled_cpp_no_lua_vm",
+  "profile": "external_enhancement",
+  "excluded": {
+    "observer": "Apps observer remains Lua",
+    "native_shadow": "obsolete native transport",
+    "physics_worker_bridge": "obsolete Worker control; not a model"
+  },
+  "missing": [
+    "impact_state"
+  ],
+  "added_modules": [
+    "body_rigidity_estimator",
+    "road_body_input",
+    "suspension_contact_input",
+    "damper_model",
+    "damper_hysteresis",
+    "progressive_spring",
+    "sprung_mass",
+    "weight_distribution",
+    "arm_compliance",
+    "control_arm",
+    "ultra_chassis",
+    "compliance_stack",
+    "tire_contact_core",
+    "tire_contact_response",
+    "tire_carcass",
+    "contact_quality",
+    "tire_memory",
+    "tire_thermal_brush",
+    "tire_contact",
+    "tire_dynamics",
+    "tire_compliance",
+    "load_path",
+    "road_input_interpreter",
+    "driveline_windup",
+    "tire_hop",
+    "slip_recovery",
+    "thermal",
+    "chassis_roll",
+    "chassis_energy",
+    "chassis_flex",
+    "virtual_inertia",
+    "steering_dynamics",
+    "steering_mechanism",
+    "brake_system",
+    "brake_fade",
+    "brake_lock",
+    "damage_state",
+    "damage_event",
+    "impact_sensor",
+    "vehicle_condition",
+    "physics"
+  ],
+  "unregistered_diagnostics": {
+    "diff_lsd_observer": "observer diagnostics; not an original modelDefs entry"
+  }
+}
