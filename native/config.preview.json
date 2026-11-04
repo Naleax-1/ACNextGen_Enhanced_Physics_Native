@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "model_damage_policy": "event_root_v1",
+  "model_input_contract": "csp_g_v1",
+  "physics_mode": "observe",
+  "effect": "additional_yaw_damping",
+  "description": "Technical preview with native model observation and physical output disabled.",
+  "enhancement": {
+    "capture": false,
+    "apply": false,
+    "calibration": "pending",
+    "tyre_lateral_profile": {
+      "enabled": false
+    }
+  }
+}
