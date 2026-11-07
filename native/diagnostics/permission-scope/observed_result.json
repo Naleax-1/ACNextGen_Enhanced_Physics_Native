@@ -1,0 +1,25 @@
+{
+  "parent_allowed": true,
+  "inline_samples": [
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "file_samples": [
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "patch_code": 4302,
+  "custom_apps_isolated": 11,
+  "log_app_labels": [
+    "ACNextGen Permission Scope Probe",
+    "ACNextGen Permission Scope Probe (physics)"
+  ],
+  "scope": "Real offline session, custom Lua Apps isolated and Python apps disabled. Built-in CSP scripts, weather, car and track context are not ruled out. Internal cause unresolved.",
+  "actuator_calls_in_probe": 0
+}
