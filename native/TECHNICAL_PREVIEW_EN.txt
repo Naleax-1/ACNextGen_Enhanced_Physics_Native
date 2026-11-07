@@ -1,0 +1,55 @@
+ACNextGen Native 4.3 — Research Technical Preview
+By Naleax
+
+PLEASE READ BEFORE DOWNLOADING
+This build is an observation-only technical preview. It runs 51 native C++ vehicle models and displays their state through an in-game Observer. Additional vehicle force and torque output is disabled in this release. Installing this preview is not expected to change your car's handling.
+
+ABOUT THE PROJECT
+ACNextGen Native is my ongoing research into an external enhancement layer for Assetto Corsa vehicle physics. The intended architecture keeps native model calculations in C++ with a DLL/Host executable, while Lua provides the game connection and observation interface. It does not require adding script.lua to individual cars or editing their physics data.
+
+This release shares the current research foundation, rather than announcing a finished physics replacement. My aim is to document the work, invite independent evaluation, and connect with people interested in vehicle dynamics, testing, and technical collaboration.
+
+WHAT IS INCLUDED
+• 51 C++ research models covering areas such as suspension, tyres, drivetrain, chassis, thermal behaviour, and diagnostics.
+• Native DLL and Host executable, with Lua connection components.
+• An in-game Observer with Stop and Resume controls.
+• A Content Manager / Generic Mods oriented ZIP layout.
+
+CURRENT LIMITATIONS
+• Offline sessions only; online use is not supported.
+• Model execution, received inputs, and displayed candidate values do not prove that a model contributes correctly to vehicle behaviour. Individual physical contributions remain under development and validation.
+• In the tested CSP 0.3.1 build (patch 4302), the common Worker did not receive physics-operation permission. An “Inhibited” status or zero applied-frame/API counters can therefore be expected. This preview does not bypass that restriction.
+• Performance and compatibility vary with the PC, CSP version, car, and track. This is an experimental development preview.
+• The manual deployment and Observer lifecycle have been checked in the real game. The CM Generic Mods install/uninstall workflow could not be fully verified in the available CM Lite environment.
+
+INSTALLATION
+1. Exit your current Assetto Corsa session.
+2. Back up any existing ACNextGen installation. Disable an older Generic Mods version before enabling this one.
+3. Drag the supplied CM ZIP into Content Manager and enable “ACNextGen Native V4.3” under Generic Mods, if supported by your CM setup.
+4. Start an offline session and open ACNextGen Observer from the app list. Stop pauses the native models; Resume restarts observation.
+
+MANUAL FALLBACK
+Inside the ZIP, open assettocorsa/mods/ACNextGen Native V4.3/. Copy its payload into your Assetto Corsa installation folder, preserving the apps and extension paths. Back up matching files first. Do not copy it into a car's data folder.
+
+REMOVAL
+Exit the session, then disable this version in Generic Mods. For a manual installation, restore your backup and remove only files introduced by this package. Keep unrelated apps and plugins intact.
+
+FEEDBACK AND COLLABORATION
+Useful reports include the exact ZIP filename, CSP version, car and track, reproduction steps, Observer status, and what happens after Stop/Resume. For performance reports, compare FPS or frame times under the same conditions. Remove personal paths and identifying details before sharing logs.
+
+Technical criticism, vehicle-dynamics advice, independent verification, and future collaboration are especially welcome. Please describe observations as observations; this release does not establish parity with other simulators.
+
+PROJECT AND CONTACT
+GitHub: https://github.com/Naleax-1/ACNextGen_Enhanced_Physics_plugin
+X: https://x.com/Naleax1
+Instagram: https://www.instagram.com/naleax1/
+
+CREDITS
+Developed by Naleax. Third-party components and their notices are documented in THIRD_PARTY_NOTICES.md in the project repository. Thanks to everyone providing technical feedback and testing assistance.
+
+LICENSE
+ACNextGen Native — CC0 1.0 Universal
+
+Naleax dedicates their original ACNextGen Native contributions under CC0 1.0 Universal. You may use, copy, modify, redistribute, and use them commercially without asking permission. Attribution and publication of modifications are not required for those contributions. No additional project-specific usage restrictions are imposed.
+
+See LICENSE for the full dedication. Third-party material retains its respective licenses; see THIRD_PARTY_NOTICES.md and LICENSE-json.txt.

@@ -5,4 +5,4 @@
 - `reference/*.lua`: pinned ACNextGen model sources used for translation and equivalence tests. They are never loaded by the production DLL.
 - Build-time packages: luaparser 4.2.0 and Lupa 2.6 are installed separately with pip. Python, Zig, and their toolchains are not vendored in this repository.
 
-This notice does not assign a new license to ACNextGen's own sources. No Assetto Corsa binaries or third-party car model, texture, sound, or physics data are included.
+Naleax's original ACNextGen contributions are dedicated under CC0 1.0 Universal; see LICENSE. Third-party material retains its respective license and attribution. No Assetto Corsa binaries or third-party car model, texture, sound, or physics data are included.
